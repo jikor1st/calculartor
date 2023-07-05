@@ -1,7 +1,7 @@
 import { convertObjectToCss } from "@/utils/common/styles";
 import { css, styled } from "styled-components";
 
-type ButtonProps = {
+export type ButtonProps = {
   size?: "medium";
   color?: "fill-amber-600" | "fill-gray-300" | "fill-gray-800";
   fullWidth?: boolean;
