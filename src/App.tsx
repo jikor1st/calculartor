@@ -1,4 +1,3 @@
-import { InputHTMLAttributes } from "react";
 import Calculator from "./components/Calculator";
 
 function App() {

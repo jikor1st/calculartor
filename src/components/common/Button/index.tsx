@@ -36,17 +36,29 @@ const Button = styled.button<ButtonProps>`
         return css`
           color: ${theme.color.white};
           background-color: ${theme.color.amber[600]};
+
+          &:active {
+            background-color: ${theme.color.amber[800]};
+          }
         `;
       case "fill-gray-300":
         return css`
           color: ${theme.color.black};
           background-color: ${theme.color.gray[300]};
+
+          &:active {
+            background-color: ${theme.color.gray[500]};
+          }
         `;
       case "fill-gray-800":
       default:
         return css`
           color: ${theme.color.white};
           background-color: ${theme.color.gray[800]};
+
+          &:active {
+            background-color: ${theme.color.gray[600]};
+          }
         `;
     }
   }}

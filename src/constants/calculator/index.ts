@@ -84,7 +84,7 @@ export const CALCULATOR_ARRAY: CalculatorItemType[] = [
     value: ".",
   },
   {
-    type: "operator",
+    type: "calculate",
     value: "=",
     color: "fill-amber-600",
   },
